@@ -72,11 +72,13 @@
   margin: 0 auto;
 }
 .survey {
+  
   cursor: pointer;
   position: relative;
   background-color: #f7f8fa;
   font-weight: bolder;
-  margin: 10px 0;
+  margin-bottom: 25px;
+  margin-top:  15px;
   box-shadow: 5px 5px 10px 0 #a5b3b3;
 }
 .survey:hover {
@@ -134,7 +136,7 @@
 .content-card {
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 18px;
+  font-size: 15px;
 }
 /* END INTRO CSS */
 
@@ -178,9 +180,7 @@ hr.line {
 .footer_top {
   position: relative;
   overflow-x: hidden;
-  padding-right: 80px;
-  padding-top: 30px;
-  padding-bottom: 220px;
+  padding: 21px 0px 234px
 }
 .footer_bottom {
   color: #7f88a6;
@@ -192,17 +192,14 @@ hr.line {
   font-size: 14px;
 }
 .title-footer-center {
-  margin-left: 40px;
+  margin-left: 5px;
 }
 .list-item li {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-weight: bolder;
 }
 .list-item li a {
   color: #6a7695;
-}
-.title-footer-right {
-  margin-left: 40px;
 }
 .footer-icon {
   margin-left: -16px;
