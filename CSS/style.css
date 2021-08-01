@@ -1,0 +1,265 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+/* NAVBAR HEADER CSS */
+.navbar{
+  margin: -11px 0;
+  padding: 9px 4px;
+}
+.navbar-brand img {
+  height: 60px;
+}
+.navbar-right {
+  padding-right: 10px;
+}
+/* END NAVBAR HEADER CSS */
+
+/* CAROUSEL CSS */
+.carousel {
+  height: 100vh;
+  background-image: url("../img/Banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.description {
+  padding: 20px 0;
+}
+.typing-text {
+  padding: 0 10%;
+  text-align: center;
+  color: #ffffff;
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+.sub {
+  padding: 10px 0 50px;
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+.button-center {
+  padding-top: 50vh;
+}
+/* END  CAROUSEL CSS */
+
+/* INTRO CSS */
+.intro {
+  margin: 10px 0;
+}
+.intro-item-title {
+  margin: 0 auto;
+}
+.survey {
+  cursor: pointer;
+  position: relative;
+  background-color: #f7f8fa;
+  font-weight: bolder;
+  margin: 10px 0;
+  box-shadow: 5px 5px 10px 0 #a5b3b3;
+}
+.survey:hover {
+  box-shadow: 5px 5px 10px 0 #383d3d;
+}
+
+.ribbon {
+  position: absolute;
+  right: -3px;
+  top: -3px;
+  z-index: 1;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  text-align: right;
+}
+.ribbon span {
+  font-size: 10px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 15px;
+  transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: linear-gradient(#f70505, #8f0808);
+  box-shadow: 0 1px 10px -4px #000;
+  position: absolute;
+  top: 6px;
+  right: -35px;
+}
+.survey .ribbon span:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  z-index: -1;
+  border-width: 3px;
+}
+.survey .ribbon span:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  z-index: -1;
+  border-width: 3px;
+  right: 0;
+  border-color: #8f0808 #8f0808 transparent transparent;
+}
+.survey-title_uppercase {
+  text-transform: uppercase;
+  color: #8f0808;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.content-card {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 18px;
+}
+/* END INTRO CSS */
+
+/* INFOMARTION CSS */
+.infomation {
+  padding: 50px 0;
+  background-color: #f7f8fa;
+}
+.title-infomarion {
+  color: #4b505e;
+  font-weight: bolder;
+}
+.content-information {
+  padding: 100px 0;
+}
+.content-information h3 {
+  color: #4b505e;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.content-information span {
+  font-size: 20px;
+}
+/* END INFORMATION CSS */
+
+/* TARGET CSS */
+.target {
+  margin: 20px 0;
+}
+.target-item-title {
+  margin: 0 auto;
+}
+/* END TARGET CSS */
+
+hr.line {
+  border-top: 1px solid #000;
+  margin-top: 10px;
+}
+
+/* FOOTER CSS */
+.footer_top {
+  position: relative;
+  overflow-x: hidden;
+  padding-right: 80px;
+  padding-top: 30px;
+  padding-bottom: 220px;
+}
+.footer_bottom {
+  color: #7f88a6;
+  padding: 0 0 20px;
+}
+.content-footer-left {
+  color: #6a7695;
+  font-weight: bolder;
+  font-size: 14px;
+}
+.title-footer-center {
+  margin-left: 40px;
+}
+.list-item li {
+  margin-bottom: 5px;
+  font-weight: bolder;
+}
+.list-item li a {
+  color: #6a7695;
+}
+.title-footer-right {
+  margin-left: 40px;
+}
+.footer-icon {
+  margin-left: -16px;
+}
+.footer-icon a {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 45px;
+  display: inline-block;
+  margin-left: 15px;
+}
+.footer_background {
+  position: absolute;
+  bottom: 0;
+  background: url(../img/footerbg.png) no-repeat scroll center 0;
+  width: 100%;
+  height: 266px;
+}
+.footer_background_one {
+  background: url(../img/volks.gif) no-repeat 50%;
+  width: 330px;
+  height: 105px;
+  background-size: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  animation: myfirst 22s linear infinite;
+}
+.footer_background_two {
+  background: url(../img/cyclist.gif) no-repeat 50%;
+  width: 88px;
+  height: 100px;
+  background-size: 100%;
+  bottom: 0;
+  left: 38%;
+  position: absolute;
+  animation: myfirst 30s linear infinite;
+}
+.content-footer-bottom {
+  font-size: 20px;
+}
+@keyframes myfirst {
+  from {
+    left: -15%;
+  }
+  to {
+    left: 180%;
+    transform: translateX(-300px);
+  }
+}
+/* END FOOTER CSS */
+
+/* back to top */
+.scroll-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
