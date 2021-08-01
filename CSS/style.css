@@ -247,12 +247,11 @@ hr.line {
   font-size: 20px;
 }
 @keyframes myfirst {
-  from {
-    left: -15%;
+  0% {
+    left: -25%;
   }
-  to {
-    left: 180%;
-    transform: translateX(-300px);
+  100% {
+    left: 100%;
   }
 }
 /* END FOOTER CSS */
